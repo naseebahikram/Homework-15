@@ -19,11 +19,11 @@
 
       - Test the webpage by entering the IP address `8.8.8.8`. Press Submit to see the results display on the web application.
 
-     ![DVWA Ping 8.8.8.8](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/DVWA%20Ping%208.8.8.8.PNG)
+        ![DVWA Ping 8.8.8.8](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/DVWA%20Ping%208.8.8.8.PNG)
 
      - This process is no different than if we went to the command line and typed that same command: `ping 8.8.8.8`
 
-       ![Terminal Ping 8.8.8.8](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/Terminal%20Ping%208.8.8.8.PNG)
+        ![Terminal Ping 8.8.8.8](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/Terminal%20Ping%208.8.8.8.PNG)
 
 3. Test if we can manipulate the input to cause an unintended result.
 
@@ -33,30 +33,30 @@
 
       - Terminal `ping 8.8.8.8 && pwd`: 
 
-       ![Terminal ping & pwd](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/Terminal%20Ping%208.8.8.8-pwd.PNG)
+        ![Terminal ping & pwd](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/Terminal%20Ping%208.8.8.8-pwd.PNG)
   
-   - DVWA `8.8.8.8 && pwd`:
+      - DVWA `8.8.8.8 && pwd`:
 
-      ![DVWA ping & pwd](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/DVWA%20Ping%208.8.8.8.-pwd.PNG)
+        ![DVWA ping & pwd](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/DVWA%20Ping%208.8.8.8.-pwd.PNG)
 
 
 4. Now that you have determined that Replicants new application is vulnerable to command injection, you are tasked with using the dot-dot-slash method to design two payloads that will display the contents of the following files:
    
     - DVWA `8.8.8.8 && cat /../etc/passwd`:
       
-      ![DVWA ping & cat](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/DVWA%20ping-passwd.PNG)
+        ![DVWA ping & cat](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/DVWA%20ping-passwd.PNG)
     
     - Terminal `ping 8.8.8.8 && cat /../etc/passwd`:
 
-    ![Terminal ping & cat](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/Terminal%20Ping-passwd.PNG)
+        ![Terminal ping & cat](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/Terminal%20Ping-passwd.PNG)
 
     - DVWA `8.8.8.8 && cat /../etc/hosts`:
 
-      ![DVWA ping & cat](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/DVWA%20ping-hosts.PNG)
+        ![DVWA ping & cat](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/DVWA%20ping-hosts.PNG)
 
     - Terminal `ping 8.8.8.8 && cat /../etc/hosts`:
 
-      ![Terminal ping & cat](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/Terminal%20ping-hosts.PNG)
+        ![Terminal ping & cat](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/Terminal%20ping-hosts.PNG)
   
 
 5. **Deliverable**: Take a screen shot confirming that this exploit was successfully executed and provide 2-3 sentences outlining mitigation strategies. 
