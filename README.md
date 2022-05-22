@@ -1,55 +1,5 @@
 # Unit 15 Homework
 
-## Overview
-
-In this homework scenario, you will continue as an application security engineer at Replicants. Replicants created several new web applications and would like you to continue testing them for vulnerabilities. Additionally, your manager would like you to research and test a security tool called **BeEF** in order to understand the impact it could have on the organization if Replicants was targeted with this tool. 
-
-### Lab Environment
-
-You will continue to use your Vagrant virtual machine for this assignment.
-
-### Topics Covered in Your Assignment
-
-- Web application vulnerability assessments
-- Injection
-- Brute force attacks
-- Broken authentication
-- Burp Suite
-- Web proxies
-- Directory traversal
-- Dot dot slash attacks
-- Beef
-- Cross-site scripting
-- Malicious payloads
-
-
----
-
-## Instructions
-
-In this assignment, you will test three web application vulnerabilities. For each vulnerability you will be provided with the following:
-
-  - Steps detailing how to setup and access the application.
-
-  - A walkthrough explaining how the application is intended to work.
-
-  - A task that will test the application for vulnerabilities.
-
-Your goal is to determine if the application is vulnerable and provide mitigations.
-
-### Submission Guidelines
-
-You will submit a document (Word or Google Docs) that contains the following for each web application: 
-
-- Screen shots confirming the successful exploit.
-
-- Two to three sentences detailing recommended mitigation strategies. 
-
-When complete, submit the file on BCS.   
-
-
----
-
 ### Web Application 1: *Your Wish is My Command Injection*
 
 1. Complete the following to set up the activity. 
@@ -60,7 +10,7 @@ When complete, submit the file on BCS.
     
       - The web page should look like the following:
 
-        ![DVWA Code Injection](Images/wd_hw1.png)
+        ![DVWA Code Injection](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/DVWA%20Code%20Injection.PNG)
 
 
 2. This page is a new web application built by Replicants in order to enable their customers to `ping` an IP address. The web page will return the results of the ping command back to the user.
