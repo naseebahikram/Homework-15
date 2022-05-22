@@ -186,12 +186,17 @@
      
      - Social Engineering >> Pretty Theft
 
-      !(https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/Petty%20Theft.PNG)
+      ![hw](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/Petty%20Theft.PNG)
 
      - Social Engineering >> Fake Notification Bar
 
-      !(https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/Notification%20Bar.PNG)
+      ![hw](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/Notification%20Bar.PNG)
 
      - Host >> Get Geolocation (Third Party)
 
-      !(https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/Geolocation.PNG)
+      ![hw](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/Geolocation.PNG)
+
+6. **Deliverable**: Take a screen shot confirming that this exploit was successfully executed and provide 2-3 sentences outlining mitigation strategies. 
+  - Change passwords regularly
+  - Keeping systems up to date
+  - Restoring VM's on a regular basis
