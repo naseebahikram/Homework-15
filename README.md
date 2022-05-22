@@ -33,7 +33,7 @@
 
       - Terminal `ping 8.8.8.8 && pwd`: 
 
-        ![Terminal ping & pwd](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/Terminal%20Ping%208.8.8.8-pwd.PNG)
+       ![Terminal ping & pwd](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/Terminal%20Ping%208.8.8.8-pwd.PNG)
   
    - DVWA `8.8.8.8 && pwd`:
 
@@ -44,19 +44,19 @@
    
     - DVWA `8.8.8.8 && cat /../etc/passwd`:
       
-      [DVWA ping & cat](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/DVWA%20ping-passwd.PNG)
+      ![DVWA ping & cat](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/DVWA%20ping-passwd.PNG)
     
     - Terminal `ping 8.8.8.8 && cat /../etc/passwd`:
 
-    [Terminal ping & cat](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/Terminal%20Ping-passwd.PNG)
+    ![Terminal ping & cat](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/Terminal%20Ping-passwd.PNG)
 
     - DVWA `8.8.8.8 && cat /../etc/hosts`:
 
-      [DVWA ping & cat](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/DVWA%20ping-hosts.PNG)
+      ![DVWA ping & cat](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/DVWA%20ping-hosts.PNG)
 
     - Terminal `ping 8.8.8.8 && cat /../etc/hosts`:
 
-      [Terminal ping & cat](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/Terminal%20ping-hosts.PNG)
+      ![Terminal ping & cat](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/Terminal%20ping-hosts.PNG)
   
 
 5. **Deliverable**: Take a screen shot confirming that this exploit was successfully executed and provide 2-3 sentences outlining mitigation strategies. 
