@@ -65,3 +65,37 @@
     - This will reduce the number of users that can access the database. It will also secure the location of all the confidential files and directories. 
   - Don't use command line calls if possoble
     - Use APIs whenever possible
+
+### Web Application 2: *A Brute Force to Be Reckoned With*
+
+1. Complete the following steps to set up the activity. 
+
+    - Open a terminal and run `sudo burpsuite`
+    
+    - Open a browser on Vagrant and navigate to the webpage <http://192.168.13.35/login.php>.
+  
+    -  The page should look like the following:
+
+      - Login: `bee`
+
+      - Password: `bug`
+
+    - This will take you to the following page:
+
+      ![bWAPP login](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/bWAPP%20login.PNG)
+
+    - To access the application where we will perform our activity, enter in the following URL: <http://192.168.13.35/ba_insecure_login_1.php>
+
+      - This will take you to the following page:
+
+        ![bWAPP Broken Auth](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/bWAPP%20Broken%20Auth..PNG)
+
+        ![BurpSuite Interception](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/BurpSuite%20Intercept.PNG)
+
+        ![Cluster Bomb](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/Clusterbomb.PNG)
+
+        ![Payload 1](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/payload%201.PNG)
+
+        ![Payload 2](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/Payload%202.PNG)
+
+        ![Successful Login](https://github.com/naseebahikram/Homework-15/blob/main/Homework%2015%20Pictures/Successful%20Burp%20Suite.PNG)
